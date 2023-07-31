@@ -1,0 +1,16 @@
+#logo > img{
+    height: 150px;
+    margin: 4px;
+}
+header{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+}
+#title{
+    font-size: 4vh;
+    color: rgb(13, 161, 112);
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black ;
+}
+
