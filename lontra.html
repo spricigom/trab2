@@ -1,20 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/faviicon.jpg" type="image/x-icon">
-    <title>Lontrazinhas</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="img/faviicon.jpg" type="image/x-icon" />
+    <title>Animaizinhos</title>
+    <style>
+      @media (max-width: 860px) {
+        #logo {
+          display: none;
+        }
+        #title {
+          font-size: 3vh;
+          text-shadow: 3px 3px 3px black;
+        }
+        #title > h1 {
+          text-align: center;
+        }
+        header {
+          grid-template-columns: 2fr 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <div id="logo">
-            <img src="img/faviicon.jpg" alt="">
-        </div>
-        <div id="title">
-            <h1>Lontrinhas</h1>
-        </div>
+      <div id="logo">
+        <a href="index.html"><img src="img/lontra.jpg" alt="" /></a>
+      </div>
+      <div id="title">
+        <h1>Lontra</h1>
+      </div>
     </header>
-</body>
+      <nav>
+        <a href="foca.html">Foca</a>
+        <a href="lontra.html">Lontra</a>
+        <a href="morsa.html">Morsa</a>
+        <a href="urso.html">Urso</a>
+      </nav>
+  </body>
 </html>

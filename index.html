@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" href="img/faviicon.jpg" type="image/x-icon" />
     <title>Animaizinhos</title>
     <style>
@@ -11,9 +11,15 @@
         #logo {
           display: none;
         }
-        #title{
-            font-size: 3vh;
-            text-shadow: 3px 3px 3px black;
+        #title {
+          font-size: 3vh;
+          text-shadow: 3px 3px 3px black;
+        }
+        #title > h1 {
+          text-align: center;
+        }
+        header {
+          grid-template-columns: 2fr 1fr;
         }
       }
     </style>
@@ -21,11 +27,20 @@
   <body>
     <header>
       <div id="logo">
-        <img src="img/faviicon.jpg" alt="" />
+        <a href="index.html"><img src="img/faviicon.jpg" alt="" /></a>
       </div>
       <div id="title">
         <h1>Animaizinhos</h1>
       </div>
     </header>
+      <nav>
+        <a href="foca.html">Foca</a>
+        <a href="lontra.html">Lontra</a>
+        <a href="morsa.html">Morsa</a>
+        <a href="urso.html">Urso</a>
+      </nav>
+      <main>
+        <section> </section>
+      </main>
   </body>
 </html>
