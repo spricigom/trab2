@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+ :root{
+    --fonte-txt:'Roboto', sans-serif;
+ }
+ 
 *{
     padding: 0;
     margin: 0;
@@ -11,6 +16,7 @@ header{
     grid-template-columns: 100px 1fr;
     background-color: #18AD90;
 }
+
 #title{
     font-size: 4vh;
     color: white;
@@ -21,7 +27,7 @@ header{
     animation-name: rodar;
     animation-duration: 1s;
     animation-iteration-count: 1;
-}
+}     
 
 @keyframes rodar {
     0% {
@@ -39,6 +45,7 @@ nav{
     border: 3px solid black;
     position: fixed;
     width: 100%;
+    margin-top:0px;
 }
 nav > a{
     color:white;
@@ -53,4 +60,19 @@ nav > a{
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px
+}
+
+nav.scrolled {
+    background-color: #16A085;
+    border: 3px solid black;
+    width: 100%;
+    position: fixed;
+    top: 0; /* Fixa o menu no topo */
+    z-index: 1000;
+}
+
+main{
+    font-size: 3vh;
+    font-family: var(--fonte-txt);
+    margin-top: 100px;
 }
