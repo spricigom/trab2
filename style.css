@@ -72,7 +72,32 @@ nav.scrolled {
 }
 
 main{
-    font-size: 3vh;
+    display: grid;
+
+    font-size: 2vh;
     font-family: var(--fonte-txt);
     margin-top: 100px;
 }
+main > h1{
+    text-align: center;
+    font-size: 4vh;
+}
+.home{
+    margin-left: 1%;
+}
+/*
+main > img{
+    display: block;
+    align-items: center;
+
+}
+
+.baleia {
+    display: grid;￼
+    align-items: center;
+    text-align: center;
+}
+
+aside {
+    grid-template-columns: 1fr;
+}*/
