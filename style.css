@@ -78,24 +78,29 @@ nav.scrolled {
     
 }
 .center > img{
-    width: 100%;
+    margin-top: 20px;
+    width:100%;
 }
 main{
     display: grid;
-
     font-size: 2vh;
     font-family: var(--fonte-txt);
     margin-top: 100px;
 }
 main > h1{
     text-align: center;
-    font-size: 4vh;
+    font-size: 4.2vh;
+}
+main > h2{
+    margin-top: 25px;
+    margin-left: 2.5%;
+    font-size: 3vh;
 }
 .paragra{
-   margin-left: 1%;
+   margin-left: 1.5%;
    margin-top: 20px;
 }
-main > h3{
+h3{
     margin-left: 2%;
     margin-top: 25px;
     font-size: 2.4vh;
@@ -111,4 +116,14 @@ footer > a > img{
     margin: 0 auto;
     height: 40px;
     width: 55px;
+}
+.index {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-row: 1fr 1fr;
+}
+#home{
+    margin-top: 50px;
+    margin-left: 20px;
+
 }

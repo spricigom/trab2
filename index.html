@@ -23,14 +23,19 @@
         header {
           grid-template-columns: 2fr 1fr;
         }
-        .center{
-          margin:auto;
-          width: 425px;
+        .imgH{
+          width: 200px;
         }
         nav > a{
           font-size: 3vh;
         }
-
+        .index{
+          grid-row: none;
+          grid-template-columns: none;
+        }
+        #home{
+          font-size: 2.5vh; 
+        }
       }
       @media (max-width: 430px) {
         #logo {
@@ -48,11 +53,17 @@
         header {
           grid-template-columns: 2fr 1fr;
         }
-        .center{
-          margin: auto;
-          width: 300px;
+        .imgH{
+          width: 150px;
         }
         nav > a{
+          font-size: 2vh;
+        }
+        .index{
+          grid-row: none;
+          grid-template-columns: none;
+        }
+        #home{
           font-size: 2vh;
         }
       }
@@ -71,10 +82,19 @@
       <nav>
         <a href="foca.html">Foca</a>
         <a href="lontra.html">Lontra</a>
-        <a href="baleia.html">Morsa</a>
+        <a href="baleia.html">Baleia</a>
         <a href="urso.html">Urso</a></p>
       </nav>
-
+      <main class="index" style="margin-left: 70px;">
+       <a href="baleia.html"><img class="imgH" src="./img/baleia.webp" alt="" width="100%" height="100%"></a> 
+        <h1 id="home">Baleia jubarte aparece no litoral de SP levando filhote na cabeça</h1></a>
+        <a href="urso.html"><img class="imgH" src="./img/urso.jpg" alt="" width="100%" height="100%"></a>
+        <h1 id="home">Boas notícias: urso e loba são resgatados na Ucrânia</h1>
+        <a href="foca.html"><img class="imgH" src="./img/foca.jpg" alt="" width="100%" height="100%" style="margin-top: 30px;"></a>
+        <h1 id="home">Finlândia luta para salvar as focas mais ameaçadas do mundo</h1>
+       <a href="lontra.html"><img class="imgH" src="./img/lontra.jpg" alt="" width="100%" height="100%" style="margin-top: 30px;"></a> 
+        <h1 id="home">Após receber atendimento do Estado, filhote de lontra ganha uma nova casa na RMC</h1>
+      </main>
       <footer>
       <a href="https://www.instagram.com/spricigom_/"><img src="img/insta-removebg-preview.png" alt="insta"></a> 
       <a href="https://github.com/spricigom"><img src="img/git-removebg-preview.png" alt="git"></a>
